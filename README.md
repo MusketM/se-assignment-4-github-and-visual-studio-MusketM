@@ -4,8 +4,6 @@
 Assignment: GitHub and Visual Studio
 Instructions:
 Answer the following questions based on your understanding of GitHub and Visual Studio. Provide detailed explanations and examples where appropriate.
-
-
 **Reference materials**
 -   https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-visual-studio-code?
 -   Pro Git by Scott Chacon and Ben Straub
@@ -16,13 +14,12 @@ Answer the following questions based on your understanding of GitHub and Visual 
 -   Gemini
 -   CoPilot
 
-
 **ANSWERS:**
 Introduction to GitHub:
-
-What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.
+1.	What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.
 
 **Git hub** is a cloud-based platform where developers can collaborate on software projects, manage code, and track changes.
+
 
 what are its primary functions and features?
 
@@ -77,11 +74,9 @@ What is a GitHub repository? Describe how to create a new repository and the ess
     License: Sets terms for code usage.
     Other files (source code, documentation, etc.) specific to your project.
 
-
 **Version Control with Git:**
 
 Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers?
-
 Version control is a system that records changes to files over time, allowing you to recall specific versions later. It works as described below:
 
     Local Version Control Systems:
@@ -127,11 +122,9 @@ Branches in GitHub are used to create independent lines of development within a 
 -   Code Review: Team members review, comment, and approve changes.
 -   Merge the Branch: Merge the branch into the main branch via GitHub.
 
-
 **Pull Requests and Code Reviews:**
 
 What is a pull request in GitHub, and how does it facilitate code reviews and collaboration? Outline the steps to create and review a pull request.
-
 
 **Pull Request:**
    A pull request (PR) in GitHub is a method for proposing changes to a repository. It allows developers to inform others about changes they've made in a branch, facilitating code review, discussion, and eventual merging into the main codebase. Pull requests are crucial for collaboration and maintaining code quality.
@@ -140,7 +133,6 @@ What is a pull request in GitHub, and how does it facilitate code reviews and co
 -   Allows team members to review and discuss code changes.
 -   Ensures new code is tested and validated through CI.
 -   Provides a documented history of changes and discussions.
--   
 **Outline the steps to create and review a pull request.**
 Create and Push a Branch:
 
@@ -148,9 +140,7 @@ Create and Push a Branch:
     Make changes, commit, and push: git add ., git commit -m "message", git push origin feature-branch
 
 Open a Pull Request:
-
     Go to the repository on GitHub, click "Compare & pull request", fill in details, and create the PR.
-
 Review the Pull Request:
 
     Navigate to "Pull requests" tab, select the PR, review changes, leave comments, and approve or request changes.
@@ -313,4 +303,5 @@ Benefits of Integration
     Enhanced Collaboration: Team members can collaborate effectively on code reviews, track project progress through GitHub Issues, and automate workflows with GitHub Actions, fostering a collaborative development environment.
 
     Community Engagement: By hosting projects on GitHub, like VS Code, organizations can leverage the community for feedback, contributions, and support, accelerating innovation and improving software quality.
+
 
