@@ -28,14 +28,14 @@ Answer the following questions based on your understanding of GitHub and Visual 
 Introduction to GitHub:
 1.	What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.
 
-**Git hub** is a cloud-based platform where developers can collaborate on software projects, manage code, and track changes.
+Git hub is a cloud-based platform where developers can collaborate on software projects, manage code, and track changes.
 
 
 what are its primary functions and features?
 
-    **Repository Hosting**: GitHub allows you to store your code in repositories. You can showcase your work, track changes over time, and collaborate with others.
+Repository Hosting**: GitHub allows you to store your code in repositories. You can showcase your work, track changes over time, and collaborate with others.
 
-   ** Collaborative Coding**:
+Collaborative Coding
         Pull Requests: Contributors can propose changes to a repository. You can review these changes and merge them into the codebase.
         Code Review: Review new code, see visual changes, and confidently merge code with automated checks.
         Code Owners: Automatically request reviews from specific contributors for code sections they own.
@@ -171,51 +171,50 @@ GitHub Actions:
 Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.
 
 GitHub Actions is a powerful automation platform that integrates with GitHub repositories, enabling developers to automate workflows for continuous integration (CI) and continuous deployment (CD), among other tasks. With GitHub Actions, you can define workflows that build, test, and deploy your code whenever certain events occur in your repository, such as pushing a commit or creating a pull request.
-
 Key Features:
 
-    Event-Driven: Trigger workflows based on events like pushes or pull requests.
-    Jobs and Steps: Define sequences of tasks (jobs) and individual tasks (steps).
-    Reusable Actions: Use or create reusable actions to perform common tasks.
-    Environment Management: Run jobs on different environments and manage secrets.
+Event-Driven: Trigger workflows based on events like pushes or pull requests.
+Jobs and Steps: Define sequences of tasks (jobs) and individual tasks (steps).
+Reusable Actions: Use or create reusable actions to perform common tasks.
+Environment Management: Run jobs on different environments and manage secrets.
 
-   Triggers:
+Triggers:
 
-    The workflow runs on push and pull_request events to the main branch.
+The workflow runs on push and pull_request events to the main branch.
 
 Jobs and Steps:
 
-    build-and-test Job:
-   Checkout code: Uses actions/checkout@v2 to check out the repository code.
-   Set up Node.js: Uses actions/setup-node@v2 to set up Node.js version 14.
-   Install dependencies: Runs npm install to install project dependencies.
-   Run tests: Runs npm test to execute tests.
+build-and-test Job:
+Checkout code: Uses actions/checkout@v2 to check out the repository code.
+Set up Node.js: Uses actions/setup-node@v2 to set up Node.js version 14.
+Install dependencies: Runs npm install to install project dependencies.
+Run tests: Runs npm test to execute tests.
 
-    deploy Job:
-   Runs-on: Executes on the latest Ubuntu environment.
-   Needs: Depends on the successful completion of the build-and-test job.
-   If: Only runs if the workflow is triggered on the main branch.
-   Steps:
-      Checkout code: Uses actions/checkout@v2 to check out the repository code.
-      Set up Node.js: Uses actions/setup-node@v2 to set up Node.js version 14.
-      Install dependencies: Runs npm install to install project dependencies.
-      Build project: Runs npm run build to build the project.
-      Deploy to Server: Uses rsync to deploy the built project to a server, using a secret deploy key for authentication. 
+deploy Job:
+Runs-on: Executes on the latest Ubuntu environment.
+Needs: Depends on the successful completion of the build-and-test job.
+If: Only runs if the workflow is triggered on the main branch.
+Steps:
+Checkout code: Uses actions/checkout@v2 to check out the repository code.
+Set up Node.js: Uses actions/setup-node@v2 to set up Node.js version 14.
+Install dependencies: Runs npm install to install project dependencies.
+Build project: Runs npm run build to build the project.
+Deploy to Server: Uses rsync to deploy the built project to a server, using a secret deploy key for authentication. 
 Introduction to Visual Studio:
 
 **What is Visual Studio, and what are its key features? How does it differ from Visual Studio Code?**
 
 Visual Studio (VS) is a comprehensive IDE primarily used for developing applications on the Microsoft Windows platform. It supports a wide range of programming languages and technologies, including C#, C++, Visual Basic .NET, F#, and web technologies like ASP.NET. Here are its key features:
 
-    Full-Featured IDE: Visual Studio provides a complete development environment with extensive tools and features tailored for building complex applications.
+Full-Featured IDE: Visual Studio provides a complete development environment with extensive tools and features tailored for building complex applications.
 
-    Rich Ecosystem: It integrates seamlessly with Microsoft's development ecosystem, including Azure cloud services, Team Foundation Server (TFS), and Git for version control.
+Rich Ecosystem: It integrates seamlessly with Microsoft's development ecosystem, including Azure cloud services, Team Foundation Server (TFS), and Git for version control.
 
-    Extensibility: Visual Studio supports extensions and plugins that enhance its functionality, allowing developers to customize their development environment.
+Extensibility: Visual Studio supports extensions and plugins that enhance its functionality, allowing developers to customize their development environment.
 
-    Graphical Designers: It includes graphical designers for building user interfaces (UIs), databases, and more, making it easier to visually design components.
+Graphical Designers: It includes graphical designers for building user interfaces (UIs), databases, and more, making it easier to visually design components.
 
-    Integrated Debugger: Powerful debugging tools help developers identify and fix issues in their code efficiently.
+Integrated Debugger: Powerful debugging tools help developers identify and fix issues in their code efficiently.
 
 **Visual Studio Code**
 
