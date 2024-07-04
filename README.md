@@ -48,12 +48,12 @@ Collaborative Coding
    Codespaces: Spin up fully configured development environments in the cloud.
    Notifications: Stay updated on GitHub activity you’ve subscribed to.
 
-    Project Management:
+Project Management:
    Issues: Track and assign tasks, bugs, and features.
    Discussions: Dedicated space for community conversations.
    Project Boards: Organize tasks using Kanban boards.
 
-    Security & Administration:
+Security & Administration:
    Protected Branches: Enforce restrictions on branch merges.
    Team Reviewers: Request team reviews for pull requests.
    Code Search & View: Rapidly search and navigate code on GitHub.
@@ -65,7 +65,7 @@ Repositories on GitHub:
 
 What is a GitHub repository? Describe how to create a new repository and the essential elements that should be included in it.
 
-    **A repository** (or repo) is a fundamental element of GitHub and Git. It’s like a project folder where code lives.
+A repository** (or repo) is a fundamental element of GitHub and Git. It’s like a project folder where code lives.
     Repositories allow for version control and collaboration. They track changes, store history, and enable multiple people to work together seamlessly.
 
 Repository is a fundamental element of GitHub and git. It's like a project folder where code lives. Repositories allow for version control and collaboration. The truck changes store history and enable multiple people to work together seamlessly.
