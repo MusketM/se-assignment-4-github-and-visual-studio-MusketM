@@ -43,20 +43,20 @@ what are its primary functions and features?
         Multiple Assignees and Reviewers: Assign multiple people to work on issues or review code.
         Multi-line Comments: Clarify code reviews by commenting on specific lines in pull requests.
 
-    Automation & CI/CD:
-        GitHub Actions: Automate CI/CD workflows, testing, approvals, and more.
-        Codespaces: Spin up fully configured development environments in the cloud.
-        Notifications: Stay updated on GitHub activity you’ve subscribed to.
+   Automation & CI/CD:
+   GitHub Actions: Automate CI/CD workflows, testing, approvals, and more.
+   Codespaces: Spin up fully configured development environments in the cloud.
+   Notifications: Stay updated on GitHub activity you’ve subscribed to.
 
     Project Management:
-        Issues: Track and assign tasks, bugs, and features.
-        Discussions: Dedicated space for community conversations.
-        Project Boards: Organize tasks using Kanban boards.
+   Issues: Track and assign tasks, bugs, and features.
+   Discussions: Dedicated space for community conversations.
+   Project Boards: Organize tasks using Kanban boards.
 
     Security & Administration:
-        Protected Branches: Enforce restrictions on branch merges.
-        Team Reviewers: Request team reviews for pull requests.
-        Code Search & View: Rapidly search and navigate code on GitHub.
+   Protected Branches: Enforce restrictions on branch merges.
+   Team Reviewers: Request team reviews for pull requests.
+   Code Search & View: Rapidly search and navigate code on GitHub.
 
 Explain how GitHub supports collaborative software development.
 GitHub provides a robust platform for managing code, coordinating team efforts, and automating workflows, thereby significantly enhancing the collaborative software development process.
@@ -87,35 +87,35 @@ license sets terms  for code usage
 Other files (Source code, documentation etc)specific to your project.
 
     
-    Other files (source code, documentation, etc.) specific to your project.
+Other files (source code, documentation, etc.) specific to your project.
 
 **Version Control with Git:**
 
 Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers?
 Version control is a system that records changes to files over time, allowing you to recall specific versions later. It works as described below:
 
-    Local Version Control Systems:
-        Developers used to copy files into separate directories (often time-stamped) to track changes.
-        However, this approach is error-prone and lacks efficiency.
+Local Version Control Systems:
+Developers used to copy files into separate directories (often time-stamped) to track changes.
+However, this approach is error-prone and lacks efficiency.
 
-    Centralized Version Control Systems (CVCSs):
-        Systems like CVS, Subversion, and Perforce have a central server containing versioned files.
-        Clients check out files from this central place.
-        Offers advantages over local VCSs but still relies on a central server.
+Centralized Version Control Systems (CVCSs):
+Systems like CVS, Subversion, and Perforce have a central server containing versioned files.
+Clients check out files from this central place.
+Offers advantages over local VCSs but still relies on a central server.
 
-    Distributed Version Control Systems (DVCSs):
-        Git is a popular DVCS.
-        Every user has a complete copy of the repository.
-        Allows offline work and seamless collaboration.
-        Commits (snapshots) are immutable, ensuring data integrity.
+Distributed Version Control Systems (DVCSs):
+Git is a popular DVCS.
+Every user has a complete copy of the repository.
+Allows offline work and seamless collaboration.
+Commits (snapshots) are immutable, ensuring data integrity.
 
 **GitHub enhances version control for developers by:**
 
-    Providing a cloud-based platform for hosting Git repositories.
-    Enabling collaborative coding (pull requests, code review).
-    Automating workflows (GitHub Actions).
-    Offering project management tools (issues, project boards).
-    Enhancing security and administration features
+Providing a cloud-based platform for hosting Git repositories.
+Enabling collaborative coding (pull requests, code review).
+Automating workflows (GitHub Actions).
+Offering project management tools (issues, project boards).
+Enhancing security and administration features
 
 **Branching and Merging in GitHub:**
 
